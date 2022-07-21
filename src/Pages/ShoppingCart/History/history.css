@@ -1,0 +1,49 @@
+.result {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.result.active {
+    transform: scale(1);
+}
+
+.result-content {
+    width: 100%;
+    background-color: #fff;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+
+.result-content h3 {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.result-header {
+  
+        display: grid;
+        grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+        column-gap: 30px;
+    
+        padding: 22px 0;
+        background-color: #EAEFF2;
+    
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 1.2;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+   
+
+}
+
+.result-header__title {
+    grid-column-start: 2;
+}
+
+section .product.main{
+border-bottom: 1px solid #bcbec0;
+}

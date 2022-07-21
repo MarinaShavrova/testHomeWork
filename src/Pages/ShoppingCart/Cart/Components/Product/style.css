@@ -1,0 +1,42 @@
+.product {
+    grid-template-columns: 40% 20% 20% 20%;
+    display: grid;
+    margin: 20px auto;
+    grid-gap: 10px;
+
+}
+.name{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.product__img img{
+    width: 100px;
+}
+
+.product__title {
+display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.product__count {
+display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.product__price {
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__controls {
+    justify-self: center;
+
+    display: flex;
+        justify-content: left;
+        align-items: center;
+}

@@ -1,0 +1,48 @@
+.form-container{
+text-align: center;
+padding-top: 20px;
+
+}
+
+.form-container h4{
+    padding: 20px;
+}
+
+.submit-button{
+    padding: 20px;
+}
+.submit-button button{
+    font-size: 1rem;
+    padding: 1rem 4rem;
+    border: none;
+    background: #e31837;
+    color: #fff;
+    transition: 0.2 ease-out;
+}
+
+.submit-button button:hover {
+    background: #ffc500;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    color: #000;
+}
+.input-text{
+text-align: center;
+justify-content: center;
+display: block;
+padding: 10px;
+}
+
+.input-text input{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    transition: .3s border-color;
+}
+
+.input-text input:hover {
+    border: 1px solid #aaa;
+}

@@ -1,0 +1,15 @@
+.product__history{
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.product__price__history{
+    text-align: right;
+}
+
+.product__cost__history{
+    text-align: center;
+    padding-left: 60px;
+}

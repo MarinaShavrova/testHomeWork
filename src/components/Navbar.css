@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.text {
+    text-transform: uppercase;
+}
+
+.mainLogo{
+    width: 130px;
+}
+
+.logo {
+    width: 30px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.open-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible {
+    transform: translateX(0);
+}
+
+.nav-black {
+    background-color: black;
+    width: 60%;
+    max-width: 480px;
+    min-width: 320px;
+    transition-delay: 0.4s;
+}
+
+.nav-black.nav.visible {
+    transition-delay: 0s;
+}
+
+.nav-red {
+    background-color: #D9A841;
+    width: 95%;
+    transition-delay: 0.2s;
+}
+
+.nav-red.nav.visible {
+    transition-delay: 0.2s;
+}
+
+.nav-white {
+    background-color: #fff;
+    width: 95%;
+    padding: 0;
+    padding-left: 40px;
+    position: relative;
+    transition-delay: 0s;
+}
+
+.nav-white.nav.visible {
+    transition-delay: 0.4s;
+}
+
+.close-btn {
+    position: absolute;
+    top: 55px;
+    right: 30px;
+    color: rgb(184, 184, 184);
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin: 0;
+}
+
+.list li a {
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.list ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+main {
+    font-family: 'Noto Serif', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+img {
+    margin: 20px;
+    width: 300px;
+    border: 1px solid #fff;
+}
+
+.shops-btn{
+    display: flex;
+    align-items: center;
+   
+} 
+
+h4{
+    padding-left: 10px;
+    font-family: 'Noto Serif', serif;
+} 
+h4:hover{
+color: #ffc500;
+}
+
+.nav-link:hover{
+color: #ffc500;
+}
+
+.nav-main{
+    display: flex;
+    position: fixed;
+}
+
+
+.shopping-cart{
+    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    
+}
+
+.shopping-history{
+    display: flex;
+        position: fixed;
+        top: 10px;
+        left: 280px;
+}
+
+.nav-link.shopping-cart-link{
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(34, 34, 34);
+}
+.column {
+    padding: 20px;
+
+}
